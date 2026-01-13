@@ -2,17 +2,33 @@
 {
   "name": "Cinematic Golden Ratio Camera",
   "short_name": "GoldenRatio",
-  "description": "Professional cinematic composition camera tool.",
-  "start_url": ".",
+  "description": "Professional cinematic composition camera tool with Fibonacci spiral overlays.",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
+  "orientation": "any",
   "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3687/3687416.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
     {
       "src": "https://cdn-icons-png.flaticon.com/512/3687/3687416.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
+    }
+  ],
+  "categories": ["photography", "utilities"],
+  "screenshots": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3687/3687416.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "wide"
     }
   ]
 }
