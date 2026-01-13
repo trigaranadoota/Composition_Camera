@@ -4,13 +4,10 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
+  base: '/',
   build: {
     outDir: 'dist',
-    rollupOptions: {
-      input: {
-        main: './index.html'
-      }
-    }
-  },
-  publicDir: './' // Since manifest and icons are in the root
+    minify: 'esbuild',
+    reportCompressedSize: false
+  }
 });
