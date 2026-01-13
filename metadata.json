@@ -1,0 +1,8 @@
+{
+  "name": "Cinematic Golden Ratio Camera",
+  "description": "A professional-grade camera application featuring a dynamic Golden Ratio (Fibonacci) overlay for perfect cinematic composition and frame balance.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

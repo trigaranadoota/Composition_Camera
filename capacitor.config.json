@@ -1,0 +1,10 @@
+
+{
+  "appId": "com.cinematic.goldenratio",
+  "appName": "Cinematic Camera",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}
